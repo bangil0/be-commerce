@@ -2,7 +2,7 @@
 <br><br>
 <b>Framework Used : Laravel 5.7</b>
 <br><br>
-<a href="https://github.com/arbipram/be-commerce/wiki/Installation">Installation</a>
+<a href="https://github.com/arbipram/be-commerce/wiki/">Go to WIKI</a>
 <br><br>
 <b>Features</b>
 <ul>
