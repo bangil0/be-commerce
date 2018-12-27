@@ -1,9 +1,9 @@
 <h1>E-Commerce for Everyone! Built with Laravel</h1>
-<br>
+<br><br>
 <b>Framework Used : Laravel 5.7</b>
-<br>
+<br><br>
 <a href="">Installation</a>
-<br>
+<br><br>
 <b>Features</b>
 <ul>
 	<li>Products</li>
