@@ -222,7 +222,7 @@
 
                 $ship_by = $("#kurir").val();
                 $("#shipping").val($val_shipping);
-                $("#ship_by").value = $("#costSelect option:selected").attr("service")
+                $("#ship_by").val($("#costSelect option:selected").attr("service"))
                 
                 var $total_product = 0;
                 var $subtotal = 0;
