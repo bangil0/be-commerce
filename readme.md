@@ -37,7 +37,7 @@
 	<li>Couriers</li>
 		<ul>
 			<li>Integrated with Raja Ongkir API</li>
-			<li>User can Insert Resi Number for delivery tracking</li>
+			<li>Admin can Insert Resi Number for delivery tracking</li>
 		</ul>
 	<li>Banners</li>
 	<ul>
