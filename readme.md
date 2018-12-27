@@ -23,7 +23,7 @@
 		<ul>
 			<li>See overview of your orders</li>
 			<li>Detailed view of the order comes with: list of items purchased, delivery address, courier and payment status.</li>
-			<li>Downloadable invoice </li>
+			<li>Printable invoice </li>
 		</ul>
 	<li>Coupons</li>
 		<ul>
