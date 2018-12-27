@@ -1657,7 +1657,6 @@ VALUES
 	(98,'Neoma Predovic','ruthie96@baumbach.net','Laki-laki','$2y$10$jKLQ9iujgg8XOljdCsF.CeGbmHDz2ga0PpN26SHrsw2b4QtCsfPPW','941-272-2105',5,421,'89903','6335 Eunice Flat Apt. 840\nLubowitzland, NV 11073','On','2018-12-08','2018-12-08'),
 	(99,'Abigale Gerlach V','maritza.torphy@yahoo.com','Perempuan','$2y$10$jKLQ9iujgg8XOljdCsF.CeGbmHDz2ga0PpN26SHrsw2b4QtCsfPPW','791.458.4278',3,144,'38843','46783 Cortney Trafficway Suite 129\r\nEast Rasheed, DC 27958','On','2018-12-08','2018-12-08'),
 	(100,'Korbin Dooley','gordon.gorczany@oberbrunner.com','Laki-laki','$2y$10$jKLQ9iujgg8XOljdCsF.CeGbmHDz2ga0PpN26SHrsw2b4QtCsfPPW','(705) 364-5193 x6312',19,407,'70815','6430 Berenice Courts\nWittingbury, FL 44594','On','2018-12-08','2018-12-08'),
-	(101,'test','testaaaa@gmail.com','Laki-Laki','$2y$10$wLavnKFU7sUBN3QI6grN1enl7iYxEQD6uHEQ13rwBjXVlhabjA3YC',NULL,NULL,NULL,NULL,NULL,NULL,'2018-12-17','2018-12-17');
 
 /*!40000 ALTER TABLE `customers` ENABLE KEYS */;
 UNLOCK TABLES;
