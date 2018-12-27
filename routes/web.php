@@ -57,5 +57,5 @@ Route::get('admin/products/deleteProductsImage','AdminProductsController@deleteP
 
 // Route::middleware('auth:customer')->get('test-auth-customer', function () {
 //     $customer = auth()->guard('customer')->user();
-//     return "Ok lu udah login sebagai '{$customer->name}'."; // coba akses '/test-auth-customer' sebelum sama sesudah login
+//     return "Ok sudah login sebagai '{$customer->name}'."; // coba akses '/test-auth-customer' sebelum sama sesudah login
 // });

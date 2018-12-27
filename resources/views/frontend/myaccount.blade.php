@@ -92,6 +92,9 @@
                                             @if(!empty($orders[0]->kurir))
                                             <th>Kurir</th>
                                             @endif
+                                            @if(!empty($orders[0]->no_resi))
+                                            <th>No Resi</th>
+                                            @endif
                                             <th>Grand Total</th>
                                             <th>Order Status</th>
                                             <th>Payment Method</th>
@@ -106,6 +109,15 @@
                                                     <td>
                                                         {{$order->kurir}}
                                                     </td>
+                                                    @else
+                                                    <td> - </td>
+                                                    @endif
+                                                    @if(!empty($order->no_resi))
+                                                    <td>
+                                                        {{$order->no_resi}}
+                                                    </td>
+                                                    @else
+                                                    <td> - </td>
                                                     @endif
                                                     <td width="120px">Rp. {{number_format($order->grand_total,2,',','.')}}</td>
                                                     <td>

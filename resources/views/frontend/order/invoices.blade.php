@@ -59,8 +59,8 @@
                                 <tr>
                                     <td>Tanggal</td>
                                     <td>: <b>{{date('d F Y',strtotime($order[0]->order_date))}}</td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>No Resi</td>
+                                    <td>: {{$order[0]->no_resi}}</td>
                                 </tr>
                             </table>
                             <table style="margin-top: 20px" class="table table-striped">
