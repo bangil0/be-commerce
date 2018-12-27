@@ -2,7 +2,7 @@
 <br><br>
 <b>Framework Used : Laravel 5.7</b>
 <br><br>
-<a href="https://github.com/arbipram/be-commerce/wiki/Installation">Installation</a>
+<a href="https://github.com/arbipram/be-commerce/wiki/">WIKI (Demo, Installation, Admin Features, Frontend Features)</a>
 <br><br>
 <b>Features</b>
 <ul>
@@ -23,7 +23,7 @@
 		<ul>
 			<li>See overview of your orders</li>
 			<li>Detailed view of the order comes with: list of items purchased, delivery address, courier and payment status.</li>
-			<li>Downloadable invoice </li>
+			<li>Printable invoice </li>
 		</ul>
 	<li>Coupons</li>
 		<ul>
