@@ -27,13 +27,9 @@ class LoginController extends Controller
     }
 
     public function authUser(Request $request){
-		// 3. Ambil ['email' => "emailnya", 'password' => "passwordnya"]
 		$credentials = $request->only('email', 'password');
 
-		// 4. attempt
 		if (auth()->guard('customer')->attempt($credentials)) {
-			// 5. kalo di lain controller mau ambil data user caranya gini
-			// $customer = auth()->guard('customer')->user();
 			
             $customers = Customer::where('email','=',$request->email)->first();
             session([
@@ -41,10 +37,8 @@ class LoginController extends Controller
 				"name" => $customers->name,
 				"email" => $customers->email
 			]);
-			// redirect
 			return redirect('my-account');
 		} else {
-			// redirect
 			return redirect('login')->withErrors(['Wrong Username or Password']);
 		}
     }

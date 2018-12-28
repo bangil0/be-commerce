@@ -54,8 +54,3 @@ Route::namespace('Frontend')->group(function() {
 Route::get('admin/api/city','Frontend\CityController@getJson');
 Route::get('admin/api/coupons','AdminCouponsController@getJson');
 Route::get('admin/products/deleteProductsImage','AdminProductsController@deleteProductsImage');
-
-// Route::middleware('auth:customer')->get('test-auth-customer', function () {
-//     $customer = auth()->guard('customer')->user();
-//     return "Ok sudah login sebagai '{$customer->name}'."; // coba akses '/test-auth-customer' sebelum sama sesudah login
-// });

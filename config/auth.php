@@ -74,7 +74,6 @@ return [
             'model' => App\User::class,
         ],
         
-        // 1. Kalo modelnya beda, bikin providernya
         'customers' => [
             'driver' => 'eloquent',
             'model' => App\Models\Customer::class,
